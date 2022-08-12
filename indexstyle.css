@@ -1,0 +1,68 @@
+*{
+    font-family:'Lucida Grande';
+}
+
+#maindiv{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#logo{
+    margin-top: 22px;
+    width: 5vw;
+    height: 6vh;
+    margin-right: 4%;
+    margin-bottom: 3%;
+}
+
+#leftblock{
+    width: 60vw;
+    padding-top: 32vh;
+    padding-left: 12vw;
+    font-size: larger;
+}
+
+.describe{
+    margin-top: 5%;
+    font-size: larger;
+}
+
+#loginbox{
+    border: 1px solid rgb(236, 104, 56);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    height: 65vh;
+    margin-left: 4vw;
+    margin-right: 8vw;
+}
+
+#Loginheading{
+    border: .2px solid rgb(236, 104, 56);
+    background-image: linear-gradient(to right, rgb(251, 138, 106) , rgb(233, 67, 7));
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding-bottom: 1vh;
+}
+
+#rightbox{
+    width: 40vw;
+    padding-top: 25vh;
+    border-radius: 5%;
+    box-shadow: 5%;
+}
+
+#flexing{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1vw;
+}
+
+#loginbtn{
+    width: 90%;
+    /* height: 10%; */
+    color: orangered;
+    background-color: white;
+    border: 2px solid orangered;
+    border-radius: 5px;
+}

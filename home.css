@@ -1,0 +1,102 @@
+*{
+    font-family:Segoe UI;
+}
+
+#start{
+    margin-left: 9vw;
+    margin-top: 4vh;
+    margin-bottom: 4%;
+}
+
+#innerbody{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#logo{
+    width: 3%;
+    height: 4%;
+    margin-bottom: 2vh;
+    margin-right: 2vw;
+}
+
+#rightflow{
+    display:flex;
+    flex-direction: row;
+}
+
+#downflow{
+    display:flex;
+    flex-direction:column;
+    padding-left: 2%;
+}
+
+.cards{
+    margin-left: 6vw;
+    min-width: 30vw;
+    min-height:45vh;
+    border: .1px solid rgb(228, 225, 225);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3%;
+    margin-bottom: 8%;
+}
+
+#headerimg{
+    width: 10%;
+    height: 10%;
+    clip-path: circle();
+    margin-right: 4%;
+    align-items: center;
+}
+
+#rightbox{  
+    display: flex;
+    flex-direction: column;
+}
+
+#rightbox1{
+    margin-right: 10%;
+    margin-left: 40%;
+    /* min-width: 5%; */
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3%; 
+    height: fit-content;
+    border: .1px solid rgb(236, 104, 56);
+    border-radius: 5.5% 5.5% 5% 5%;
+    padding-bottom: 1vh;
+    margin-bottom: 5%;
+}
+
+#rightbox2{
+    margin-right: 10%;
+    margin-left: 40%;
+    padding: .5% .5% .5% 2.5%;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: fit-content;
+    border: .01px dotted gray;
+    border-radius: 12px;
+    
+}
+
+#profilehead{
+    height: 26%;
+    width: auto;
+    color: white;
+    background-image: linear-gradient(to right, rgb(251, 138, 106) , rgb(233, 67, 7));
+    font-size: xx-large;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#profileimg{
+    height: 28%;
+    width: 28%;
+    clip-path: circle();
+}
+
+#footercard{
+    display: flex;
+    flex-direction: column;
+    border: 2px sollid black;
+}
