@@ -4,7 +4,7 @@
 
 #start{
     margin-left: 9vw;
-    margin-top: 4vh;
+    margin-top: 2vh;
     margin-bottom: 2%;
 }
 
@@ -34,7 +34,7 @@
 .cards{
     margin-left: 6vw;
     min-width: 30vw;
-    min-height:fit-content ;
+    min-height: fit-content ;
     border: .1px solid rgb(228, 225, 225);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 3%;
@@ -42,7 +42,7 @@
 }
 
 .card1{
-    height: 64vh;
+    min-height: 76vh;
     padding-left: 8%;
     padding-top: 2%;
     padding-bottom: 15%;
